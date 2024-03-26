@@ -1,0 +1,2 @@
+// Finds a document in a db collection based on a regex match (starting with the text Holberton)
+db.school.find({name: /^Holberton.*/ })
