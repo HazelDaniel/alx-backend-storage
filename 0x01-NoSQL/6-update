@@ -1,0 +1,11 @@
+// Updates all documents in a db collection that matche the provided fields
+db.school.update(
+    { name: "Holberton school" },
+    {$set: {
+            address: "972 Mission street"
+        }
+    },
+    {
+        multi: true
+    }
+)
