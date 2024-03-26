@@ -1,0 +1,2 @@
+// uses the aggregator function "Count" to return the number of documents in a specified collection
+db.school.count()
